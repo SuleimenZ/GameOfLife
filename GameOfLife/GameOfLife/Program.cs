@@ -74,6 +74,7 @@ namespace Program
             while (n <= 100)
             {
                 printBoard(grid);
+                Console.Clear();
                 NextGeneration(grid);
                 n++;
             }
